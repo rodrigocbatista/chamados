@@ -42,9 +42,9 @@ public class JPAConfiguration
    {
       DriverManagerDataSource dataSource = new DriverManagerDataSource();
       dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-      dataSource.setUrl("jdbc:mysql://localhost/DATABASE_NAME");
-      dataSource.setUsername("your username here");
-      dataSource.setPassword("your password here");
+      dataSource.setUrl("jdbc:mysql://localhost/chamados-db");
+      dataSource.setUsername("cbatista");
+      dataSource.setPassword("cb@t1st@");
       return dataSource;
    }
 
